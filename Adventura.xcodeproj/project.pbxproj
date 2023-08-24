@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6ED1410960C1CF52C1257D8C /* Pods_Adventura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEC98FFDBDFA9780405C6B8 /* Pods_Adventura.framework */; };
 		BFF5FEB62A948CB40019BD66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5FEB52A948CB40019BD66 /* AppDelegate.swift */; };
 		BFF5FEB82A948CB40019BD66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5FEB72A948CB40019BD66 /* SceneDelegate.swift */; };
 		BFF5FEBA2A948CB40019BD66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5FEB92A948CB40019BD66 /* ViewController.swift */; };
@@ -14,9 +15,17 @@
 		BFF5FEC02A948CB40019BD66 /* Adventura.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFF5FEBE2A948CB40019BD66 /* Adventura.xcdatamodeld */; };
 		BFF5FEC22A948CB50019BD66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF5FEC12A948CB50019BD66 /* Assets.xcassets */; };
 		BFF5FEC52A948CB50019BD66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF5FEC32A948CB50019BD66 /* LaunchScreen.storyboard */; };
+		BFF5FED22A9497B90019BD66 /* GamepassManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5FED12A9497B90019BD66 /* GamepassManager.swift */; };
+		BFF5FED42A949FAC0019BD66 /* GamepassIDsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5FED32A949FAC0019BD66 /* GamepassIDsModel.swift */; };
+		BFF5FED62A94A6490019BD66 /* GamepassListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5FED52A94A6490019BD66 /* GamepassListViewController.swift */; };
+		BFF5FEDA2A94DB190019BD66 /* GamepassData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5FED92A94DB190019BD66 /* GamepassData.swift */; };
+		BFF5FEDC2A94F57F0019BD66 /* GamepassModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5FEDB2A94F57F0019BD66 /* GamepassModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		54A9BDFF094F1AEC3B11F5D3 /* Pods-Adventura.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adventura.release.xcconfig"; path = "Target Support Files/Pods-Adventura/Pods-Adventura.release.xcconfig"; sourceTree = "<group>"; };
+		A71FEDB4BB77D501AC1B08D7 /* Pods-Adventura.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adventura.debug.xcconfig"; path = "Target Support Files/Pods-Adventura/Pods-Adventura.debug.xcconfig"; sourceTree = "<group>"; };
+		ADEC98FFDBDFA9780405C6B8 /* Pods_Adventura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adventura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF5FEB22A948CB40019BD66 /* Adventura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adventura.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF5FEB52A948CB40019BD66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFF5FEB72A948CB40019BD66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +35,11 @@
 		BFF5FEC12A948CB50019BD66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFF5FEC42A948CB50019BD66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFF5FEC62A948CB50019BD66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF5FED12A9497B90019BD66 /* GamepassManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamepassManager.swift; sourceTree = "<group>"; };
+		BFF5FED32A949FAC0019BD66 /* GamepassIDsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamepassIDsModel.swift; sourceTree = "<group>"; };
+		BFF5FED52A94A6490019BD66 /* GamepassListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamepassListViewController.swift; sourceTree = "<group>"; };
+		BFF5FED92A94DB190019BD66 /* GamepassData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamepassData.swift; sourceTree = "<group>"; };
+		BFF5FEDB2A94F57F0019BD66 /* GamepassModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamepassModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +47,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6ED1410960C1CF52C1257D8C /* Pods_Adventura.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0571143EAF6C409E3A7DF1E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A71FEDB4BB77D501AC1B08D7 /* Pods-Adventura.debug.xcconfig */,
+				54A9BDFF094F1AEC3B11F5D3 /* Pods-Adventura.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2D6B010F8CCBD404F131A601 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ADEC98FFDBDFA9780405C6B8 /* Pods_Adventura.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BFF5FEA92A948CB40019BD66 = {
 			isa = PBXGroup;
 			children = (
 				BFF5FEB42A948CB40019BD66 /* Adventura */,
 				BFF5FEB32A948CB40019BD66 /* Products */,
+				0571143EAF6C409E3A7DF1E0 /* Pods */,
+				2D6B010F8CCBD404F131A601 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,9 +92,11 @@
 		BFF5FEB42A948CB40019BD66 /* Adventura */ = {
 			isa = PBXGroup;
 			children = (
+				BFF5FECE2A9494FE0019BD66 /* Controllers */,
+				BFF5FECD2A9494F30019BD66 /* Views */,
+				BFF5FECC2A9494E20019BD66 /* Models */,
 				BFF5FEB52A948CB40019BD66 /* AppDelegate.swift */,
 				BFF5FEB72A948CB40019BD66 /* SceneDelegate.swift */,
-				BFF5FEB92A948CB40019BD66 /* ViewController.swift */,
 				BFF5FEBB2A948CB40019BD66 /* Main.storyboard */,
 				BFF5FEC12A948CB50019BD66 /* Assets.xcassets */,
 				BFF5FEC32A948CB50019BD66 /* LaunchScreen.storyboard */,
@@ -70,6 +106,33 @@
 			path = Adventura;
 			sourceTree = "<group>";
 		};
+		BFF5FECC2A9494E20019BD66 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BFF5FED12A9497B90019BD66 /* GamepassManager.swift */,
+				BFF5FED92A94DB190019BD66 /* GamepassData.swift */,
+				BFF5FED32A949FAC0019BD66 /* GamepassIDsModel.swift */,
+				BFF5FEDB2A94F57F0019BD66 /* GamepassModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFF5FECD2A9494F30019BD66 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BFF5FECE2A9494FE0019BD66 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFF5FED52A94A6490019BD66 /* GamepassListViewController.swift */,
+				BFF5FEB92A948CB40019BD66 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFF5FEC92A948CB50019BD66 /* Build configuration list for PBXNativeTarget "Adventura" */;
 			buildPhases = (
+				E23B8D5B498665D79770FC1F /* [CP] Check Pods Manifest.lock */,
 				BFF5FEAE2A948CB40019BD66 /* Sources */,
 				BFF5FEAF2A948CB40019BD66 /* Frameworks */,
 				BFF5FEB02A948CB40019BD66 /* Resources */,
+				F8734E1548EF8B749958BF69 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -136,14 +201,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E23B8D5B498665D79770FC1F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adventura-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8734E1548EF8B749958BF69 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Adventura/Pods-Adventura-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Adventura/Pods-Adventura-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Adventura/Pods-Adventura-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BFF5FEAE2A948CB40019BD66 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFF5FEDA2A94DB190019BD66 /* GamepassData.swift in Sources */,
 				BFF5FEC02A948CB40019BD66 /* Adventura.xcdatamodeld in Sources */,
 				BFF5FEBA2A948CB40019BD66 /* ViewController.swift in Sources */,
+				BFF5FED42A949FAC0019BD66 /* GamepassIDsModel.swift in Sources */,
+				BFF5FEDC2A94F57F0019BD66 /* GamepassModel.swift in Sources */,
 				BFF5FEB62A948CB40019BD66 /* AppDelegate.swift in Sources */,
+				BFF5FED22A9497B90019BD66 /* GamepassManager.swift in Sources */,
+				BFF5FED62A94A6490019BD66 /* GamepassListViewController.swift in Sources */,
 				BFF5FEB82A948CB40019BD66 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,11 +398,13 @@
 		};
 		BFF5FECA2A948CB50019BD66 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A71FEDB4BB77D501AC1B08D7 /* Pods-Adventura.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6MP8W2L9M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Adventura/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -313,11 +427,13 @@
 		};
 		BFF5FECB2A948CB50019BD66 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54A9BDFF094F1AEC3B11F5D3 /* Pods-Adventura.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = V6MP8W2L9M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Adventura/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
