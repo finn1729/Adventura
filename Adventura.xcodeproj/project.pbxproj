@@ -8,9 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		6ED1410960C1CF52C1257D8C /* Pods_Adventura.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADEC98FFDBDFA9780405C6B8 /* Pods_Adventura.framework */; };
+		BF3F60C12A986CF30011D68A /* game.plist in Resources */ = {isa = PBXBuildFile; fileRef = BF3F60C02A986CF30011D68A /* game.plist */; };
+		BF3F60C32A986D920011D68A /* Adventura++Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3F60C22A986D920011D68A /* Adventura++Bundle.swift */; };
+		BF3F60C52A987CB40011D68A /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3F60C42A987CB40011D68A /* NewsModel.swift */; };
+		BF3F60C72A987CC40011D68A /* NewsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3F60C62A987CC40011D68A /* NewsData.swift */; };
+		BF3F60C92A987CEF0011D68A /* NewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3F60C82A987CEF0011D68A /* NewsManager.swift */; };
+		BF3F60CC2A988F0E0011D68A /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF3F60CA2A988F0E0011D68A /* NewsCell.swift */; };
+		BF3F60CD2A988F0E0011D68A /* NewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF3F60CB2A988F0E0011D68A /* NewsCell.xib */; };
 		BFF5FEB62A948CB40019BD66 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5FEB52A948CB40019BD66 /* AppDelegate.swift */; };
 		BFF5FEB82A948CB40019BD66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5FEB72A948CB40019BD66 /* SceneDelegate.swift */; };
-		BFF5FEBA2A948CB40019BD66 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5FEB92A948CB40019BD66 /* ViewController.swift */; };
+		BFF5FEBA2A948CB40019BD66 /* GameNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF5FEB92A948CB40019BD66 /* GameNewsViewController.swift */; };
 		BFF5FEBD2A948CB40019BD66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF5FEBB2A948CB40019BD66 /* Main.storyboard */; };
 		BFF5FEC02A948CB40019BD66 /* Adventura.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BFF5FEBE2A948CB40019BD66 /* Adventura.xcdatamodeld */; };
 		BFF5FEC22A948CB50019BD66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF5FEC12A948CB50019BD66 /* Assets.xcassets */; };
@@ -26,10 +33,17 @@
 		54A9BDFF094F1AEC3B11F5D3 /* Pods-Adventura.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adventura.release.xcconfig"; path = "Target Support Files/Pods-Adventura/Pods-Adventura.release.xcconfig"; sourceTree = "<group>"; };
 		A71FEDB4BB77D501AC1B08D7 /* Pods-Adventura.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adventura.debug.xcconfig"; path = "Target Support Files/Pods-Adventura/Pods-Adventura.debug.xcconfig"; sourceTree = "<group>"; };
 		ADEC98FFDBDFA9780405C6B8 /* Pods_Adventura.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Adventura.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF3F60C02A986CF30011D68A /* game.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = game.plist; sourceTree = "<group>"; };
+		BF3F60C22A986D920011D68A /* Adventura++Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Adventura++Bundle.swift"; sourceTree = "<group>"; };
+		BF3F60C42A987CB40011D68A /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		BF3F60C62A987CC40011D68A /* NewsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsData.swift; sourceTree = "<group>"; };
+		BF3F60C82A987CEF0011D68A /* NewsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsManager.swift; sourceTree = "<group>"; };
+		BF3F60CA2A988F0E0011D68A /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		BF3F60CB2A988F0E0011D68A /* NewsCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NewsCell.xib; sourceTree = "<group>"; };
 		BFF5FEB22A948CB40019BD66 /* Adventura.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adventura.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF5FEB52A948CB40019BD66 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFF5FEB72A948CB40019BD66 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BFF5FEB92A948CB40019BD66 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFF5FEB92A948CB40019BD66 /* GameNewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameNewsViewController.swift; sourceTree = "<group>"; };
 		BFF5FEBC2A948CB40019BD66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFF5FEBF2A948CB40019BD66 /* Adventura.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Adventura.xcdatamodel; sourceTree = "<group>"; };
 		BFF5FEC12A948CB50019BD66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -97,10 +111,11 @@
 				BFF5FECC2A9494E20019BD66 /* Models */,
 				BFF5FEB52A948CB40019BD66 /* AppDelegate.swift */,
 				BFF5FEB72A948CB40019BD66 /* SceneDelegate.swift */,
-				BFF5FEBB2A948CB40019BD66 /* Main.storyboard */,
 				BFF5FEC12A948CB50019BD66 /* Assets.xcassets */,
 				BFF5FEC32A948CB50019BD66 /* LaunchScreen.storyboard */,
 				BFF5FEC62A948CB50019BD66 /* Info.plist */,
+				BF3F60C02A986CF30011D68A /* game.plist */,
+				BF3F60C22A986D920011D68A /* Adventura++Bundle.swift */,
 				BFF5FEBE2A948CB40019BD66 /* Adventura.xcdatamodeld */,
 			);
 			path = Adventura;
@@ -113,6 +128,9 @@
 				BFF5FED92A94DB190019BD66 /* GamepassData.swift */,
 				BFF5FED32A949FAC0019BD66 /* GamepassIDsModel.swift */,
 				BFF5FEDB2A94F57F0019BD66 /* GamepassModel.swift */,
+				BF3F60C42A987CB40011D68A /* NewsModel.swift */,
+				BF3F60C62A987CC40011D68A /* NewsData.swift */,
+				BF3F60C82A987CEF0011D68A /* NewsManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -120,6 +138,9 @@
 		BFF5FECD2A9494F30019BD66 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BFF5FEBB2A948CB40019BD66 /* Main.storyboard */,
+				BF3F60CA2A988F0E0011D68A /* NewsCell.swift */,
+				BF3F60CB2A988F0E0011D68A /* NewsCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -127,8 +148,8 @@
 		BFF5FECE2A9494FE0019BD66 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				BFF5FEB92A948CB40019BD66 /* GameNewsViewController.swift */,
 				BFF5FED52A94A6490019BD66 /* GamepassListViewController.swift */,
-				BFF5FEB92A948CB40019BD66 /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -195,6 +216,8 @@
 			files = (
 				BFF5FEC52A948CB50019BD66 /* LaunchScreen.storyboard in Resources */,
 				BFF5FEC22A948CB50019BD66 /* Assets.xcassets in Resources */,
+				BF3F60CD2A988F0E0011D68A /* NewsCell.xib in Resources */,
+				BF3F60C12A986CF30011D68A /* game.plist in Resources */,
 				BFF5FEBD2A948CB40019BD66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,10 +273,15 @@
 			files = (
 				BFF5FEDA2A94DB190019BD66 /* GamepassData.swift in Sources */,
 				BFF5FEC02A948CB40019BD66 /* Adventura.xcdatamodeld in Sources */,
-				BFF5FEBA2A948CB40019BD66 /* ViewController.swift in Sources */,
+				BFF5FEBA2A948CB40019BD66 /* GameNewsViewController.swift in Sources */,
 				BFF5FED42A949FAC0019BD66 /* GamepassIDsModel.swift in Sources */,
+				BF3F60C92A987CEF0011D68A /* NewsManager.swift in Sources */,
 				BFF5FEDC2A94F57F0019BD66 /* GamepassModel.swift in Sources */,
 				BFF5FEB62A948CB40019BD66 /* AppDelegate.swift in Sources */,
+				BF3F60C52A987CB40011D68A /* NewsModel.swift in Sources */,
+				BF3F60C32A986D920011D68A /* Adventura++Bundle.swift in Sources */,
+				BF3F60C72A987CC40011D68A /* NewsData.swift in Sources */,
+				BF3F60CC2A988F0E0011D68A /* NewsCell.swift in Sources */,
 				BFF5FED22A9497B90019BD66 /* GamepassManager.swift in Sources */,
 				BFF5FED62A94A6490019BD66 /* GamepassListViewController.swift in Sources */,
 				BFF5FEB82A948CB40019BD66 /* SceneDelegate.swift in Sources */,
@@ -410,8 +438,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -439,8 +466,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

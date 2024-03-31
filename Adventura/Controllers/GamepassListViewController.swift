@@ -45,13 +45,13 @@ class GamepassListViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        tableView.deselectRow(at: indexPath, animated: true)
+        tableView.deselectRow(at: indexPath, animated: false)
 //        tableView.cellForRow(at: indexPath)?.accessoryType = .checkmark
         let urlString = "https://www.metacritic.com/search/game/\(gamepassManager.games[indexPath.row].gameURL)/results?search_type=advanced&plats[80000]=1"
         if let url = URL(string: urlString){
             UIApplication.shared.open(url, options: [:], completionHandler: nil)
         }else{
-            print("err")
+            print("String contains undecodable character")
         }
         
     }
@@ -60,7 +60,6 @@ class GamepassListViewController: UITableViewController {
 //MARK: - GamepassManagerDelegate
 extension GamepassListViewController: GamepassManagerDelegate{
     func didUpdateGamepass(_ gamepassManager: GamepassManager, gamepassModel: [GamepassModel]) {
-        DispatchQueue.main.async {
             DispatchQueue.main.async {
                 // Update the games array in your gamepassManager with the new data
                 self.gamepassManager.games = gamepassModel
@@ -73,7 +72,7 @@ extension GamepassListViewController: GamepassManagerDelegate{
                     self.activityIndicator.stopAnimating()
                 }
             }
-        }
+        
     }
     
     func didFailWithError(error: Error) {
