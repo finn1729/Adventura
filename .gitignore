@@ -82,6 +82,4 @@ fastlane/Preview.html
 fastlane/screenshots/**/*.png
 fastlane/test_output
 
-Adventura/
-
 game.plist
